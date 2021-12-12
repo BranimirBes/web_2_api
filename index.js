@@ -20,7 +20,7 @@ const bodyParser = require('body-parser');
 const jsonParser = bodyParser.json();
 
 app.use(cors({
-  origin: 'http://159.223.20.182:3000',
+  origin: 'http://localhost:3000',
   optionsSuccessStatus: 200,
   methods: "GET, PUT, POST"
 }));
